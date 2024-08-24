@@ -4,76 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>bermetkoz</title>
+    <title>Document</title>
 </head>
 <body>
+    <div class="wrapper">
+        <h1>Rock-Paper-Scissors</h1>
 
-    <div class="Header">
-        <div class="h">
-            <div class="logo">
-                <h4>Header Logo</h4>
-            </div>
-
-            <div class="links">
-                    <div class="link"></div>header link one
-                    <div class="link"></div>header link two
-                    <div class="link"></div>header link three
-            </div>
+        <h3>Choose!</h3>
+        <div id="choices">
+            <button onclick="Game('Scissors')">✌️</button>
+            <button onclick="Game('Paper')">✋</button>
+            <button onclick="Game('Rock')">✊</button>
         </div>
-        
-        <div class="web">
-            <div class="left">
-                <div class="page">This website is awesome</div>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
-                contrast</p>
-            <button class="f-button">Sign up</button>
-            </div>
 
-            <div class="i">
-                <img src="forest.jpeg" height="300" width="400">
-            </div>
-         </div>
+        <div id="player-choice">PLAYER: </div>
+        <div id="computer-choice">COMPUTER: </div>
+        <div id="resultDisplay">RESULT: </div>
 
     </div>
 
-    <div class="section-info">
-        <div class="h4">Some random information</div>
-        <div class="boxes">
-            <div class="box-1"></div>
-            <div class="box-2"></div>
-            <div class="box-3"></div>
-            <div class="box-4"></div>
-        </div>
-        <div class="subtext">
-            <div class="subbox-1">this is some subtext under an illustration or image</div>
-            <div class="subbox-2">this is some subtext under an illustration or image</div>
-            <div class="subbox-3">this is some subtext under an illustration or image</div>
-            <div class="subbox-4">this is some subtext under an illustration or image</div>
-        </div>
-    </div>
 
-    <div class="quote">
-        <div class="q">
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know
-is that it looks nice.
-        </div>
-        <strong>-Thor, God of Thunder</strong>
-    </div>
-
-    <div class="last">
-        <div class="call">Call to action! It's time!</div>
-        <div class="s">Sign up for our product by clicking that button right over there!</div>
-        <button class="l-button">Sign up</button>
-    </div>
-
-    <div class="copyright">
-        <p class="c">Copyright © The Odin Project 2024</p>
-    </div>
-
-    
-       
-
-       
-    
+    <script src="script.js"></script>
 </body>
 </html>
